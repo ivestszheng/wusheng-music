@@ -1,5 +1,9 @@
 <h1 align="center">wusheng-music</h1>
 
+<p align="center">
+  <a href=""><img alt="license" src="https://img.shields.io/github/license/Yin-Hongwei/music-website"></a>
+</p>
+
 #### 介绍
 
 本音乐网站的开发主要利用 VUE 框架开发前台和后台，后端接口用 Spring Boot + MyBatis 来实现，数据库使用的是 MySQL。本项目模仿的GitHub上的一个开源项目，原项目是PC端，我改成了移动端，并在一些基础上进行了修改。

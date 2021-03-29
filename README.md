@@ -33,3 +33,20 @@
 
 ![](https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/index.png)
 
+![](https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/live.png)
+
+![](https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/mine.png)
+
+![](https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/mine-logined.png)
+
+![](https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/player.png)
+
+![](https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/search.png)
+
+![](https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/singer-list.png)
+
+![](https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/song-list.png)
+
+![](https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/song-list-content.png)
+
+![](https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/logout.png)

@@ -1,0 +1,36 @@
+@import "var.scss";
+@import "global.scss";
+
+.content-list {
+  overflow: hidden;
+  .section-content {
+    padding: 0;
+    .content-item {
+      float: left;
+      position: relative;
+      width: 33%;
+      height: 33%;
+      .kuo {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 100%;
+        height: 0;
+        overflow: hidden;
+        .item-img {
+          width: 90%;
+          transition: all 0.4s ease;
+          border-radius: 5%;
+        }
+      }
+      .item-name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        height: 2.625rem;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        margin: 10px 8px;
+      }
+    }
+  }
+}

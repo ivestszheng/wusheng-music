@@ -1,0 +1,51 @@
+@import "var.scss";
+@import "global.scss";
+
+.content {
+  margin-top: 1.5em;
+  padding: 0;
+  ul,
+  li {
+    padding-left: 0;
+  }
+  li {
+    position: relative;
+    margin-bottom: 1em;
+    padding: $padding-out;
+    .song-item {
+      text-align: left;
+      background-color:$color-white;
+
+      //  序号
+      .item-index {
+        color:$color-grey;
+        font-size: 1em;
+        display: inline-block;
+        line-height: 100%;
+        position: absolute;
+        top: 25%;
+      }
+      // 歌名,歌手,专辑名
+      .item {
+        display: inline-block;
+        padding-left: 2em;
+        // 歌名
+        .item-title {
+          color:$color-blue-dark;
+          font-size: 1em;
+        }
+        .item-name,
+        .item-intro {
+          color: $color-grey;
+          font-size: 0.75em;
+        }
+      }
+    }
+    .my-icon-more {
+      transform: rotate(90deg);
+      position: absolute;
+      right: 1em;
+      top: 25%;
+    }
+  }
+}

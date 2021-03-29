@@ -1,0 +1,84 @@
+@import "var.scss";
+@import "global.scss";
+
+ul,
+li {
+  padding-left: 0;
+}
+h2 {
+  width: 2em;
+}
+.comment {
+  margin-bottom: 2em;
+  .comment-msg {
+    .comment-input {
+      border: 1px solid $color-grey;
+    }
+  }
+}
+
+// 评论按钮
+.sub-btn {
+  float: right;
+  height: 4em;
+}
+.comment-img {
+  width: 3em;
+  img {
+    // 头像大小
+    width: 3em;
+  }
+}
+.popular {
+  position: relative;
+  .popular-imgAmsg {
+    .popular-img {
+      display: inline-block;
+      width: 2em;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .popular-msg {
+      display: inline-block;
+      position: relative;
+      padding-left: 1em;
+      .name {
+        display: block;
+        color: $color-grey;
+      }
+      .time {
+        color: $color-grey;
+        font-size: 0.7em;
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+  .up {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: $color-grey;
+    font-weight:lighter;
+    svg.icon {
+      width: 15px;
+      height: 15px;
+      fill: currentColor;
+      color: $color-grey;
+    }
+  }
+}
+// 评论内容
+.content {
+  padding-left: 3.2em;
+}
+.popular:last-child {
+  margin-bottom: 5em;
+}
+// 精彩评论
+.comment-list{
+  color: $color-black;
+  font-weight: bold;
+}

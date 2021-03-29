@@ -1,0 +1,160 @@
+@import "var.scss";
+@import "global.scss";
+
+.kongjian {
+  width: 100%;
+  z-index: 900;
+  text-align: left;
+  position: fixed;
+  bottom: 0;
+  height: 160px;
+  background-color: #f7f7f7;
+  // 歌词页面背景
+  .lyric-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 40px;
+    z-index: -100;
+    padding-bottom: 222px;
+    filter: blur(15px); /*为了模糊更明显，调高模糊度*/
+    .lyric-bg-img {
+      width: 100%;
+      height: 100%;
+      opacity: 25%;
+    }
+  }
+  // 音量栏,默认不显示
+  .volume {
+    position: absolute;
+    top: -1em;
+    // display: none;
+    width: 100%;
+    background: #f7f7f7;
+  }
+  // 时间
+.time{
+  position: absolute;
+  font-size: .5em;
+  color:$color-grey;
+  top: 6.5em;
+}
+  .playing-speed {
+    // 进度条
+    width: 100%;
+    margin-top: 2em;
+    .current-time,
+    .left-time {
+      width: 70px;
+      text-align: center;
+      font-size: 13px;
+      color: black;
+      font-weight: 500;
+      top: -10px;
+    }
+
+    .progress-box {
+      flex: 1;
+      .item-song-title {
+        height: 20px;
+        line-height: 10px;
+      }
+      .progress {
+        width: 100%;
+        background: #a9dbf9;
+        height: 6px;
+        .bg {
+          height: 100%;
+          .cur-progress {
+            height: 100%;
+            background: $color-blue;
+          }
+        }
+        .idot {
+          width: .75em;
+          height: .75em;
+          position: relative;
+          border-radius: 50%;
+          background-color: $color-black;
+          top: -.55em;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  .item-icon {
+    width: 100%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    display: flex;
+
+    .item {
+      // 播放图标
+      width: 31%;
+      text-align: center;
+      .icon {
+        width: 1.25em;
+        height: 1.25em;
+      }
+      // 已收藏则改变颜色
+      .active {
+        // 不加fill这个属性无法修改color
+        fill:currentColor;
+        color: $color-red;
+      }
+    }
+  }
+  // 收藏、下载、歌曲列表、音量
+  .item-icon-top{
+    margin-top: 1em;
+  }
+  // 上一首、下一首、播放、
+  .item-icon-bottom{
+    margin: 2em 0 0 .5em;
+  }
+}
+// 非歌词页样式
+.play-bar {
+  z-index: 800;
+  width: 100%;
+  background-color: #f7f7f7;
+  text-align: left;
+  position: fixed;
+  bottom: 50px;
+  .item-title,
+  .item-img {
+    float: left;
+  }
+  .item-img {
+    width: 2.5em;
+    margin: $padding-out;
+    padding-top: .25em;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 1.25em;
+    }
+  }
+  .item-letter {
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    padding-right: 4.5em;
+  }
+  .item-icon {
+    // 不用绝对定位，始终不在一行
+    position: absolute;
+    bottom: 0.5em;
+    right: .5em;
+    background-color: #f7f7f7;
+    .icon {
+      width: 1.25em;
+      height: 1.25em;
+      margin-right: .5em;
+    }
+  }
+}
+
+.bottom-play-bar{
+  bottom: 0;
+}

@@ -1,0 +1,19 @@
+@import "var.scss";
+@import "global.scss";
+
+.scrollTop {
+  position: fixed;
+  width: 40px;
+  height: 20px;
+  right: 10px;
+  bottom: 125px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: white;
+  opacity: 50%;
+  border-radius: 20%;
+  overflow: hidden;
+  box-sizing: content-box;
+  font-size: 14px;
+  box-shadow: 0.5em 0.5em 1em #888888;
+}

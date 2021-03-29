@@ -1,0 +1,47 @@
+@import "var.scss";
+@import "global.scss";
+li{
+  margin-top: 1em;
+  position: relative;
+}
+.the-aside{
+    z-index: 1000;
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 75%;
+    position: fixed;
+    bottom: 0;
+    opacity: 95%;
+    text-align: left;
+    padding: 0 1em;
+    border-radius: 5% 5% 0 0;
+}
+.top{
+  width: 4em;
+  height: .25em;
+  border-radius: 10%;
+  background-color: #8e98a2;
+  margin: 1em auto 0 auto;
+}
+.is-play{
+  color: $color-blue-dark;
+}
+
+.item-name{
+  font-size: .75em;
+}
+
+.icon-is-play{
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: absolute;
+  right: 2em;
+  top: .15em;
+}
+
+.mui-icon-closeempty{
+  float: right;
+  font-size: 1.5em;
+  color: $color-grey;
+}

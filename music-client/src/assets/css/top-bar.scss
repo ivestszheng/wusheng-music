@@ -1,0 +1,12 @@
+@import "var.scss";
+@import "global.scss";
+
+.myHeader {
+  z-index: 900;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.mui-icon-bars{
+  color: $color-white;
+}

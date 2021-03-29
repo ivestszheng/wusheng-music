@@ -1,0 +1,33 @@
+@import "var.scss";
+@import "global.scss";
+
+.index-list{
+  .cell-content {
+    background-color: $color-white;
+    background-origin: border-box;
+    height: 3em;
+    line-height: 3em;
+    border:none;
+    position: relative;
+    padding-left: 1em;
+    .singer-img {
+      position: absolute;
+      top: .1em;
+      width: 2.8em;
+      height: 2.8em;
+      // border-radius 50%的时候显示为圆形
+      border-radius: 50%;
+      padding-bottom: .1em;
+    }
+    .singer-name {
+      padding-left: 3.5em;
+      text-indent: 2em;
+      height: 100%;
+    }
+    .mui-icon-arrowright{
+      position: absolute;
+      right: 1.5em;
+      top: 25%;
+    }
+  }
+  }

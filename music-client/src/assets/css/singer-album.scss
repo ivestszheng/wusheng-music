@@ -1,0 +1,51 @@
+@import "var.scss";
+@import "global.scss";
+
+.singer-album {
+  text-align: left;
+  .album{
+    .singer{
+      z-index: 30;
+      position: absolute;
+      color: $color-white;
+      top: 7em;
+      padding-left: 1.5em;
+      .singer-name{
+        font-size: 2em;
+        font-weight: bold;
+      }
+      .singer-sex,
+      .singer-birth,
+      .singer-hometown{
+        font-size: .75em;
+      }
+      .singer-sex{
+        margin-top: 1em;
+      }
+    }
+    .singer-img {
+            // 饱和度滤镜
+            filter: brightness(50%);
+      img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+    }
+  }
+  .underImg {
+    position: absolute;
+    z-index: 20;
+    top: 15em;
+    background: #fff;
+    width: 100%;
+    border-radius: 1.5em 0 0 0;
+    padding-bottom: 100px;
+  }
+}
+
+.singer-info{
+  font-size: .75em;
+  color:$color-grey;
+  z-index: 30;
+}

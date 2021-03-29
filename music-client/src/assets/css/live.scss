@@ -1,0 +1,45 @@
+@import "var.scss";
+@import "global.scss";
+
+.section {
+  .section-title {
+    // 标题样式
+    text-align: left;
+    padding: 0 0.5em;
+    font-weight: bolder;
+    margin-bottom: 0.5em;
+    .findMore {
+      font-size: 0.75em;
+      font-weight: 100;
+      float: right;
+      letter-spacing: 0;
+    }
+  }
+  .section-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: $padding-out;
+    .item {
+      width: 100%;
+      .item-img {
+        width: 98%;
+        min-height: 3.25em;
+        border-radius: 5%;
+      }
+      .item-name {
+        text-align: left;
+        min-height: 2em;
+      }
+    }
+  }
+}
+
+.item:nth-child(odd){
+  padding-right: .25em;
+}
+
+.item:nth-child(even){
+  padding-left: .25em;
+}

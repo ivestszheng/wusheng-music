@@ -1,0 +1,45 @@
+/*
+ * @Descripttion:
+ * @Author: 无声<ivestszheng@qq.com>
+ * @Date: 2020-12-26 19:51:18
+ * @LastEditTime: 2021-02-13 18:57:19
+ */
+@import "var.scss";
+@import "global.scss";
+
+.mui-input-group {
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.mui-input-group label {
+  width: 22%;
+}
+
+.mui-input-row:last-child {
+  background: #fff;
+}
+
+.mui-input-row {
+  margin-top: 20px;
+  background: #fff;
+}
+
+.mui-input-row label ~ input,
+.mui-input-row label ~ select,
+.mui-input-row label ~ textarea {
+  width: 78%;
+}
+
+.link-area {
+  display: block;
+  margin-top: 25px;
+  text-align: center;
+  color: $color-blue-dark;
+}
+
+.mui-content-padded {
+  margin-top: 30px;
+}
+
+

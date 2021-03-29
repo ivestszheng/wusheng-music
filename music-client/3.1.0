@@ -1,0 +1,8 @@
+
+> fibers@5.0.0 install D:\GitCode\music-client\node_modules\fibers
+> node build.js || nodejs build.js
+
+`win32-x64-72` exists; testing
+Binary is fine; exiting
++ fibers@5.0.0
+added 2 packages from 3 contributors in 9.302s

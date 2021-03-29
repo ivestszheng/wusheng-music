@@ -1,0 +1,40 @@
+@import "var.scss";
+@import "global.scss";
+
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  /* 播放栏 + 底部导航栏高度 */
+  padding-bottom: 100px;
+  /* 搜索栏高度 */
+  padding-top: 40px;
+}
+
+.container {
+  /* padding-top: 40px; */
+  overflow-x: hidden;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.fade-leave-to {
+  opacity: 0;
+  transform: translateX(-100%);
+  position: absolute;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.5s ease;
+}
+
+
+.router-alive{
+  display: none;
+}

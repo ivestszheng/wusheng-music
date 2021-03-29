@@ -1,0 +1,12 @@
+@import "var.scss";
+@import "global.scss";
+
+ul,li{
+  margin: 0;
+  padding: 0;
+}
+.song-lyric{
+  z-index: 700;
+  padding-top: 1em;
+  padding-bottom: 90px;
+}

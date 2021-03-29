@@ -1,0 +1,48 @@
+// 全局修改mint-UI样式
+
+/**
+* 搜索栏样式
+*/
+input.mint-searchbar-core{
+  margin-bottom: 0;
+  background: none;  // 去掉灰色背景
+}
+// div.mint-search-list-warp搜索结果列表
+// a.mint-cell每一项搜索结果
+div.mint-search-list-warp a.mint-cell:first-child{
+  // 防止第一个搜索结果被挡住
+  margin-top: 40px;
+}
+
+
+/**
+* 注册页面样式
+*/
+div.mint-cell-value{
+  padding-top: 1em;
+}
+
+
+.mint-field-other{
+  width: 3em;
+  padding-left:0.5em;
+}
+// 歌手列表索引样式
+.mint-indexsection-index{
+  padding-left: 1.5em;
+  background: f7f7f7;
+}
+// 右侧索引栏样式
+.mint-indexlist-navlist{
+  position: fixed;
+  right: .5em;
+  top: 5em;
+  height: 400px;
+  padding: 0;
+  font-size: 1em;
+}
+.mint-indexlist-navitem{
+  margin-bottom: -1em;
+}
+
+

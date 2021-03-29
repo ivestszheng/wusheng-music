@@ -1,0 +1,21 @@
+@import "var.scss";
+@import "global.scss";
+
+.home {
+  .section {
+    .section-title {
+      // 标题样式
+      text-align: left;
+      padding: $padding-out;
+      font-weight: bolder;
+      letter-spacing: 0.5em;
+      margin-bottom: .5em;
+      .findMore {
+        font-size: 0.75em;
+        font-weight: 100;
+        float: right;
+        letter-spacing: 0;
+      }
+    }
+  }
+}

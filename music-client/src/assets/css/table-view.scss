@@ -1,0 +1,41 @@
+@import "var.scss";
+@import "global.scss";
+li {
+  display: inline;
+}
+
+.mui-grid-view.mui-grid-9 {
+  // 九宫格背景
+  background-color: #fff;
+  border: none;
+  // 九宫格按钮左右两端对齐
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mui-grid-view.mui-grid-9::after {
+  // 不加这个属性无法实现两端对齐
+  display: none;
+}
+
+.mui-grid-view.mui-grid-9 .mui-table-view-cell {
+  margin: 0;
+  padding: .5em .5em;
+  border: none;
+}
+
+.mui-icon-extra {
+  // 九宫格图标颜色
+  color: #26a2ff;
+}
+
+li.mui-table-view-cell {
+  // 每个按钮分配空间相同
+  width: 5.25em;
+}
+
+.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body {
+  font-size: 0.75em;
+  text-overflow: clip;
+}

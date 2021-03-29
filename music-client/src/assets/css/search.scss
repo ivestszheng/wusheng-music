@@ -1,0 +1,57 @@
+@import "var.scss";
+@import "global.scss";
+
+.search {
+  .header-search {
+    margin-top: -40px;
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    .mui-icon-back {
+      color: $color-blue-dark;
+      position: absolute;
+      top:.25em
+    }
+    .search-btn {
+      color: $color-blue;
+      position: absolute;
+      top: -3.25em;
+      right: 1.75em;
+      width: 1em;
+      height: 1em;
+      .icon {
+        width: 100%;
+        height: 100%；;
+      }
+    }
+    // 搜索栏
+    .search-input {
+      margin: 0;
+      border: none;
+      border-bottom: 1px solid $color-grey;
+      text-indent: 1em;
+    }
+    // 搜索栏下的按钮
+    .searchList-nav {
+      padding-top: 0.25em;
+      margin-bottom: 1em;
+      background-color: #fff;
+      color: $color-grey;
+      div {
+        display: inline-block;
+        width: 45%;
+      }
+    }
+  }
+}
+// 按钮激活状态
+.isActive {
+  color: $color-black;
+  border-bottom: 0.25em solid $color-blue;
+}
+.search-content{
+  padding-top: 40px;
+}
+.search-play-bar{
+  bottom: 0;
+}

@@ -1,0 +1,16 @@
+@import "var.scss";
+@import "global.scss";
+
+.song-list {
+  margin-bottom: 50px;
+  .song-list-header {
+    // 按钮激活的状态
+    .song-list-header-button{
+      margin: .25em;
+    }
+    .active {
+      color: #fff;
+      background-color: #26a2ff;
+    }
+  }
+}

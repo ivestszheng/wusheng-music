@@ -29,6 +29,10 @@
 1.  [原创地址](https://github.com/Yin-Hongwei/music-website)
 2.  [bilibili 王汉远视频教程](https://www.bilibili.com/video/BV1Ck4y127cg)
 
+#### 资源文件
+
+[百度云 提取码:cn8w](https://pan.baidu.com/s/1DENA9iyB699FgY58nXLPpQ)
+
 #### 项目截图
 
 <div style="padding:0 auto;">
@@ -43,9 +47,4 @@
     <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/song-list-content.png" style="width:200px;height:355px"></img>
     <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/logout.png" style="width:200px;height:355px"></img>
 </div>
-
-
-#### 资源文件
-
-[百度云 提取码:cn8w](https://pan.baidu.com/s/1DENA9iyB699FgY58nXLPpQ)
 

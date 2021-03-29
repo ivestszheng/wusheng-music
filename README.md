@@ -28,3 +28,8 @@
 
 1.  [原创地址](https://github.com/Yin-Hongwei/music-website)
 2.  [bilibili 王汉远视频教程](https://www.bilibili.com/video/BV1Ck4y127cg)
+
+#### 项目截图
+
+![](https://github.com/ivestszheng/images-store/blob/master/wusheng-music/index.png)
+

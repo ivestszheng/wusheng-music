@@ -31,7 +31,7 @@
 
 #### 项目截图
 
-<div style="display:flex;justify-content: center;">
+<div style="padding:0 auto;">
     <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/index.png" style="width:200px;height:355px"></img>
     <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/live.png" style="width:200px;height:355px"></img>
     <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/mine.png" style="width:200px;height:355px"></img>
@@ -43,3 +43,5 @@
     <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/song-list-content.png" style="width:200px;height:355px"></img>
     <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/logout.png" style="width:200px;height:355px"></img>
 </div>
+
+

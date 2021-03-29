@@ -6,7 +6,7 @@
 
 #### 介绍
 
-本音乐网站的开发主要利用 VUE 框架开发前台和后台，后端接口用 Spring Boot + MyBatis 来实现，数据库使用的是 MySQL。本项目模仿的GitHub上的一个开源项目，原项目是PC端，我改成了移动端，并在一些基础上进行了修改。
+本音乐网站的开发主要利用 VUE 框架开发前台和后台，后端接口用 Spring Boot + MyBatis 来实现，数据库使用的是 MySQL。原项目是PC端，我做了个移动端，一些功能在基础上做了修改。
 
 #### 系统环境配置
 
@@ -23,11 +23,6 @@
 开发工具： Intellij Idea  VSCode 
 
 浏览器：Chrome
-
-#### 使用说明
-
-1.  编译： npm install
-2.  试运行： npm run dev
 
 #### 参与贡献
 

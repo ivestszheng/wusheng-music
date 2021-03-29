@@ -31,15 +31,15 @@
 
 #### 项目截图
 
-<div style="display:flex;width:100%">
-	<img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/index.png" style="width:400px;height:710px"></img>
-	<img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/live.png" style="width:400px;height:710px"></img>
-	<img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/mine.png" style="width:400px;height:710px"></img>
-	<img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/mine-logined.png" style="width:400px;height:710px"></img>
-	<img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/player.png" style="width:400px;height:710px"></img>
-	<img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/search.png" style="width:400px;height:710px"></img>
-	<img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/singer-list.png" style="width:400px;height:710px"></img>
-	<img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/song-list.png" style="width:400px;height:710px"></img>
-	<img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/song-list-content.png" style="width:400px;height:710px"></img>
-	<img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/logout.png" style="width:400px;height:710px"></img>
-</div>
+    <div style="display:flex;justify-content: center;">
+        <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/index.png" style="width:200px;height:355px"></img>
+        <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/live.png" style="width:200px;height:355px"></img>
+        <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/mine.png" style="width:200px;height:355px"></img>
+        <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/mine-logined.png" style="width:200px;height:355px"></img>
+        <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/player.png" style="width:200px;height:355px"></img>
+        <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/search.png" style="width:200px;height:355px"></img>
+        <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/singer-list.png" style="width:200px;height:355px"></img>
+        <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/song-list.png" style="width:200px;height:355px"></img>
+        <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/song-list-content.png" style="width:200px;height:355px"></img>
+        <img src="https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/logout.png" style="width:200px;height:355px"></img>
+    </div>

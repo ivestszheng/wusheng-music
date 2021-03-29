@@ -31,5 +31,5 @@
 
 #### 项目截图
 
-![](https://github.com/ivestszheng/images-store/blob/master/wusheng-music/index.png)
+![](https://raw.githubusercontent.com/ivestszheng/images-store/master/wusheng-music/index.png)
 

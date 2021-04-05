@@ -29,6 +29,10 @@
 1.  [原创地址](https://github.com/Yin-Hongwei/music-website)
 2.  [bilibili 王汉远视频教程](https://www.bilibili.com/video/BV1Ck4y127cg)
 
+#### 演示视频
+
+[bilibili BV12B4y1P7KU](https://www.bilibili.com/video/BV12B4y1P7KU/)
+
 #### 资源文件
 
 [百度云 提取码:cn8w](https://pan.baidu.com/s/1DENA9iyB699FgY58nXLPpQ)

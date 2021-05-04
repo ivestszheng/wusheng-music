@@ -2,7 +2,7 @@
  * @Descripttion: 歌手索引
  * @Author: 无声<ivestszheng@qq.com>
  * @Date: 2021-05-03 21:28:15
- * @LastEditTime: 2021-05-03 23:22:12
+ * @LastEditTime: 2021-05-04 10:06:50
  */
 const index = [
   {index:'A'},
@@ -30,6 +30,7 @@ const index = [
   {index:'W'},
   {index:'X'},
   {index:'Y'},
-  {index:'Z'}
+  {index:'Z'},
+  {index:'#'}
 ]
 export {index}

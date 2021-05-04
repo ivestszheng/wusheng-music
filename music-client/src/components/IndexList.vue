@@ -2,7 +2,7 @@
  * @Descripttion: 歌手索引列表
  * @Author: 无声<ivestszheng@qq.com>
  * @Date: 2020-12-11 13:43:58
- * @LastEditTime: 2021-05-03 23:35:42
+ * @LastEditTime: 2021-05-04 11:36:46
 -->
 <template>
   <div class="index-list">
@@ -64,15 +64,23 @@ export default {
     indexFilter() {
       const dataSource = this.$props.indexList
       console.log(dataSource);
-      this.index.forEach(i => {
+      console.log(dataSource);
+      for (let i = 0; i < this.index.length - 1; i++) {
+        console.log(this.index[i].index);
         const tempList = []
-        dataSource.forEach(element => {
-          if (vPinyin.chineseToPinYin(element.name) == i.index) {
-            tempList.push(element)
+        // 从后往前遍历，解决splice()后下标改变问题
+        for (let x = dataSource.length-1 ;x >= 0;x--) {
+          if (vPinyin.chineseToPinYin(dataSource[x].name) == this.index[i].index) {
+            console.log(dataSource[x].name);
+            tempList.push(dataSource[x])
+            dataSource.splice(x, 1)
           }
-        });
-        i.list = tempList
-      })
+        }
+        this.index[i].list = tempList
+      }
+      console.log('#');
+      console.log(dataSource);
+      this.index[this.index.length - 1].list = dataSource
     }
   }
 }

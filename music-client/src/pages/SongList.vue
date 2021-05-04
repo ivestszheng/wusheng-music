@@ -1,14 +1,8 @@
 <!--
- * @Descripttion:
- * @Author: 无声<ivestszheng@qq.com>
- * @Date: 2020-12-14 18:00:07
- * @LastEditTime: 2020-12-26 19:57:23
--->
-<!--
  * @Descripttion: 歌单列表 可以按风格查询歌单
  * @Author: 无声<ivestszheng@qq.com>
  * @Date: 2020-12-10 18:23:43
- * @LastEditTime: 2020-12-25 14:48:12
+ * @LastEditTime: 2021-05-04 14:24:22
 -->
 <template>
   <div class="song-list">

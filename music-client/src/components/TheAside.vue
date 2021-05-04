@@ -2,7 +2,7 @@
  * @Descripttion: 播放列表
  * @Author: 无声<ivestszheng@qq.com>
  * @Date: 2020-12-19 21:16:42
- * @LastEditTime: 2021-02-15 16:56:25
+ * @LastEditTime: 2021-05-04 13:11:24
 -->
 <template>
   <transition name="slide-fade">
@@ -18,7 +18,7 @@
               item.id,
               item.url,
               item.pic,
-              item.index,
+              index,
               item.name,
               item.lyric
             )

@@ -12,15 +12,15 @@
 
 系统开发平台：JDK1.8 + Windows 10 + Maven3.6.1 
 
-开发语言：JavaEE+vue2.X 
+开发语言：JavaEE+vue2.x 
 
-后台框架：Springboot2.X 
+后台框架：Springboot2.x 
 
-前端：Vue2.9.6 
+前端：Vue2.x
 
 数据库和工具：MySql5.7   Navicat  
 
-开发工具： Intellij Idea  VSCode 
+开发工具： Intellij Idea, VSCode 
 
 浏览器：Chrome
 
